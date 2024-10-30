@@ -2,7 +2,7 @@
  
 let x = 3.21;
 let y = 2;
-let z;
+let z = 1;
 
 //z=Math.round(x);
 //z=Math.floor(x);
@@ -16,6 +16,7 @@ let z;
 //z=Math.tan(x);
 //z=Math.abs(x);
 //z=Math.sign(x);
-//z=Math.max(x,y);
-z=Math.min(x,y);
+//z=Math.max(x,y,w);
+//z=Math.min(x,y,w);
+
 console.log(z);
