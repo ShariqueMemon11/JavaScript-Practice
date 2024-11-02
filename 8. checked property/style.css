@@ -1,0 +1,19 @@
+.sub{
+    font-size: 30px;
+}
+.visa,.master,.pay{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#submit{
+font-size: 1em;
+border-radius: 10px;
+background-color: blue;
+color: white;
+cursor: pointer;
+}
+
+#cardresult,#subresult{
+    font-size: 20px;
+}
