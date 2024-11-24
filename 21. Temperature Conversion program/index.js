@@ -18,7 +18,7 @@ function convert() {
     }
 
     else{
-        result.textContent="Plz Select on which unit you want to convert.";
+        result.textContent="Plz Select on which unit you want to convert. ";
     }
 
 }  
