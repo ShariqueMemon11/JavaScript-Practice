@@ -1,0 +1,52 @@
+body {
+    background-color: brown;
+}
+div {
+    flex-shrink: 1; /* Prevent excessive stretching */
+    flex-grow: 0; /* Prevent growth */
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right:150px;
+}
+#input {
+    padding: 1px 1vh 1vh 1px; /* Reduced padding */
+    margin-bottom: 20px; /* Adjusted margin */
+    width: 20%; /* Control size */
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    
+}
+
+#label1{
+    font-size: large;
+}
+
+
+#label2{
+    font-size: large;
+}
+
+
+#label1 , #label2, #btn1 ,#btn2{
+    margin-bottom: 10px;
+}
+
+div>button{
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+#h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
